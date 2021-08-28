@@ -1,0 +1,105 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import "config";
+@import "menu";
+@import "medio";
+@import "about";
+@import "contact";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+
+h1{
+    font-family: 'Manrope', sans-serif;
+}
+a, h2, h2, p{
+    font-family: 'roboto', sans-serif;
+}
+.header{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba($secondary-color, 0.9),
+    (rgba($secondary-color, 0.1))),
+    url("/img/header2.jpg");
+    background-size: cover;
+    height: 100vh;
+    max-width: 100vw;
+    &__hat{
+        padding-left: 1em;
+        padding-right: 1em;
+            &__title{
+                text-align: center;
+                text-transform: uppercase;
+                color: $titles-color;
+                text-align: center;
+                bottom: 3em;
+            }
+            &__subtitle{
+                bottom: 1.5em;
+            }
+    }     
+}
+
+
+
+ /*@media(max-width: 1200px){
+    .hat h1{
+        font-size: 23px;
+    }
+    .navbar-nav li{
+        font-size: 15px;
+    }
+    .about_grid i {
+        font-size: 20px;
+        line-height: 53px;
+        height: 54px;
+        width: 54px;
+    }
+    .about h1{
+        font-size: 15px;
+    }
+    .about a, h2, h2, p{
+        font-size: 15px;
+    }
+    .medio{
+        height: 800px;
+    }
+}
+@media(max-width: 992px){
+    .hat h1{
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        margin: 10px 0px 10px 30px;
+        background-color: #E43071;
+        border-color: #E43071;
+    }
+    .navbar-toggler:hover, .navbar-toggler:focus{
+        background-color: #fff;
+        border-color: #E43071;
+    }
+    .navbar-light{
+        background-color: #fff;
+    }
+    .navbar-nav li a{
+        text-align: center;
+        background-color: aliceblue;
+    }
+    .navbar-nav li a:hover{
+        background-color: #E43071;
+    }
+    .about h1{
+
+        font-size: 14px;
+    }
+    .about a, h2, h2, p{
+
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 768px){
+    .about p{
+        padding: 10px 10px 0px;
+    }
+}*/
